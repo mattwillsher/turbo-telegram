@@ -1,5 +1,5 @@
 ---
-  - hosts: testvm2.localdomain
+  - hosts: localhost
     vars:
       consul_version: 0.6.3
       consul_is_server: true
